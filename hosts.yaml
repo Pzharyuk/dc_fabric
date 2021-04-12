@@ -1,0 +1,38 @@
+---
+
+spine1:
+    hostname: 172.16.2.200
+    groups:
+        - cisco_group
+    data:
+        layer: spine
+spine2:
+    hostname: 172.16.2.201
+    groups:
+        - cisco_group
+    data:
+        layer: spine
+leaf0:
+    hostname: 172.16.2.207
+    groups:
+        - cisco_group
+    data:
+        layer: leaf
+leaf1:
+    hostname: 172.16.2.202
+    groups:
+        - cisco_group
+    data:
+        layer: leaf
+leaf2:
+    hostname: 172.16.2.203
+    groups:
+        - cisco_group
+    data:
+        layer: leaf
+leaf3:
+    hostname: 172.16.2.204
+    groups:
+        - cisco_group
+    data:
+        layer: leaf

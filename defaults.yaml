@@ -1,0 +1,8 @@
+---
+connection_options:
+    scrapli:
+        extras:
+            ssh_config_file: True
+            auth_strict_key: False
+    netmiko:
+        platform: cisco_ios

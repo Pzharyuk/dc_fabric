@@ -1,0 +1,7 @@
+---
+
+cisco_group:
+  platform: nxos
+  username: "admin"
+  password: "admin"
+    
